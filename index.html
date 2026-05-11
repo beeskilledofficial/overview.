@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeeSkilled Internship Onboarding</title>
+  <style>
+/* CLEAN, SIMPLE, PROFESSIONAL THEME */
+:root{
+  --primary:#2563eb;
+  --bg:#f9fafb;
+  --card:#ffffff;
+  --text:#111827;
+  --muted:#6b7280;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+header{
+  background:#0f172a;
+  color:#ffffff;
+  padding:70px 20px;
+  text-align:center;
+}
+header h1{margin:0 0 10px;font-size:36px}
+header p{margin:0 0 20px;color:#cbd5f5}
+.login-btn{
+  display:inline-block;
+  background:var(--primary);
+  color:#ffffff;
+  padding:12px 26px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:700;
+}
+section{
+  max-width:1000px;
+  margin:40px auto;
+  padding:0 20px;
+}
+h2{margin-bottom:16px;color:#1e3a8a}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+.card{
+  background:var(--card);
+  padding:22px;
+  border-radius:10px;
+  border:1px solid #e5e7eb;
+}
+.highlight{
+  background:#eff6ff;
+  border:1px solid #bfdbfe;
+  padding:22px;
+  border-radius:10px;
+}
+.highlight code{background:#ffffff;padding:4px 6px;border-radius:4px}
+.steps{padding-left:18px}
+.video-container{
+  position:relative;
+  width:100%;
+  padding-bottom:56.25%;
+  height:0;
+  overflow:hidden;
+  border:1px solid #e5e7eb;
+  border-radius:10px;
+}
+.video-container iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border:0;
+  border-radius:10px;
+}
+.warning{
+  background:#ecfdf5;
+  border:1px solid #a7f3d0;
+  padding:22px;
+  border-radius:10px;
+}
+footer{
+  background:#0f172a;
+  color:#cbd5f5;
+  text-align:center;
+  padding:30px 20px;
+}
+@media(max-width:600px){
+  header{padding:40px 15px}
+  header h1{font-size:24px}
+  header p{font-size:14px}
+  section{padding:0 15px;margin:25px auto}
+  h2{font-size:20px}
+  .card{padding:16px}
+  .highlight{padding:16px}
+  .login-btn{padding:10px 20px;font-size:14px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BeeSkilled Internship - Student Onboarding</h1>
+  <p>All internship details, login process, weekly steps, quiz and final submission in one place.</p>
+  <span style="display:inline-block;margin-top:14px;color:#c7d2fe;font-weight:600;">Scroll down to view login details & internship steps</span>
+</header>
+
+<section>
+  <h2>Internship Overview</h2>
+  <div class="cards">
+    <div class="card"><h3>Duration</h3><p>6 Weeks (Online)</p></div>
+    <div class="card"><h3>Learning Mode</h3><p>Study Material, Assignments & Quiz</p></div>
+    <div class="card"><h3>Completion</h3><p>Certificate after successful verification</p></div>
+  </div>
+</section>
+
+<section id="login">
+  <h2>Student Login Details</h2>
+  <div class="highlight">
+    <p><strong>Student Portal Access</strong></p>
+    <a href="https://beeskilled.in/bee_lms/#login-page" target="_blank" class="login-btn">Student Login</a>
+
+    <p><strong>Username Format:</strong> FirstName / Last4DigitsOfPhoneNumber</p>
+    <p><strong>Example:</strong> <code>Rahul/1234</code></p>
+    <p><strong>Password Format:</strong> Username@Skilled2026</p>
+    <p><strong>Example:</strong> <code>Rahul/1234@Skilled2026</code></p>
+    <p><strong>Note:</strong> Do not change your password.</p>
+  </div>
+</section>
+
+<section>
+  <h2>How to Use the Platform</h2>
+  <ul class="steps">
+    <li>Login using your username and password</li>
+    <li>Open the course in which you are enrolled</li>
+    <li>Access week-wise study material and assignments</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Weekly Internship Flow</h2>
+  <div class="card">
+    <p><strong>Week 1 to Week 6 Process:</strong></p>
+    <ul class="steps">
+      <li>Download study material</li>
+      <li>Complete assignment</li>
+      <li>Paste answer in submission box</li>
+      <li>Click <strong>Mark as Completed</strong></li>
+      <li>Next week unlocks automatically</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Quiz Instructions</h2>
+  <div class="card">
+    <ul class="steps">
+      <li>Quiz unlocks after completing Week 4</li>
+      <li>Maximum 3 attempts allowed</li>
+      <li>Fill correct name, email and select correct course</li>
+      <li>Submit quiz after completion</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Final Submission</h2>
+  <div class="warning">
+    <p><strong>Upload:</strong> Week 4 Assignment Explanation Video</p>
+    <ul class="steps">
+      <li>Clear explanation</li>
+      <li>Proper audio</li>
+      <li>Google Drive link with public access</li>
+    </ul>
+    <p><strong>Without this step, internship will not be completed.</strong></p>
+  </div>
+</section>
+
+<section>
+  <h2>Certificate & Completion</h2>
+  <div class="card">
+    <ul class="steps">
+      <li>All weeks completed</li>
+      <li>Quiz submitted</li>
+     
+    </ul>
+    <p>Certificate will be issued after successful verification.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Common Mistakes</h2>
+  <div class="card">
+    <ul class="steps">
+      <li>Wrong username format</li>
+      <li>Private Google Drive links</li>
+      <li>Not clicking "Mark as Completed"</li>
+      <li>Wrong course selected in quiz</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>BeeSkilled Internship Program</p>
+  <p>Please read all instructions carefully before proceeding.</p>
+</footer>
+
+</body>
+</html>
